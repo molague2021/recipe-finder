@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+@theme {
+  --color-neutral-800: #395852;
+  --color-neutral-900: #163a34;
+  --color-orange-500: #fe9f6b;
+  --font-nunito: 'Nunito', sans-serif;
+  --font-nunito-sans: 'Nunito Sans', sans-serif;
+}
